@@ -13,7 +13,6 @@ const Sidebar = () => {
         <div className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
             {/* Top Section with logo/title and toggle button */}
             <div className="top_section">
-                <h1 className="logo">WorkWise</h1>
                 <div className="toggle_icon" onClick={toggleSidebar}>
                     <FaBars />
                 </div>
